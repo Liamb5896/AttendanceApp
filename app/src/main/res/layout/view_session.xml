@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="356dp"
+        android:layout_height="599dp"
+        android:layout_margin="50dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/session_name">
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Student Name" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="Student ID" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Present" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="138dp"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Liam Bradley" />
+
+            <TextView
+                android:layout_width="140dp"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100568964" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="10:35AM" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Ryan Bongart" />
+
+            <TextView
+                android:layout_width="139dp"
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100111222" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="10:32AM" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Jennifer May" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100222333" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Absent" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="128dp"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Sarah James" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100222333" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="10:36AM" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="128dp"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Mitchell Baker" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100333444" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="10:37AM" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="128dp"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Caitlyn Sawyer" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100444555" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Absent" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="128dp"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Lea Murphy" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100555666" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="10:30AM" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="128dp"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Patricia Kate" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100666777" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Absent" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="128dp"
+                android:gravity="left"
+                android:padding="3dip"
+                android:text="Michael Matthews" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="3dip"
+                android:text="100777888" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="10:36AM" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/session_name"
+        android:layout_width="395dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:text="EEE30005 Workshop (10:30AM)"
+        android:textSize="27sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
